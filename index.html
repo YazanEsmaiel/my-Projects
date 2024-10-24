@@ -2,240 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <title>Coursera Homework</title>
-    <meta name="description" content="Here is my Homework">
-    <meta name="keywords" content="home work, coursera">
-    <meta author="Yazan Abu Esmaiel">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avatar</title>
     <style>
-        body{
-    padding: 0px;
-    margin: 0px;
-    font-family: cursive;
-}
-
-h1{
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-main{
-    display: flex; 
-    
-    justify-content: space-around; 
-    padding: 20px; 
-    margin-top: 100px;
-}
-
-main div{
-    
-    box-sizing: border-box;
-    margin: 20px; 
-    padding: 20px; 
-}
-
-.chicken{
-    font-size: 20px;
-    background-color: rgba(187, 187, 187, 0.2);
-    width: 500px;
-    border-radius: 25px;
-    border-color: black;
-    padding-left: 20px;
-    box-shadow: -1px -1px 20px 1px rgb(255, 196, 0) ;
-    
-    
-    
-    
-    
-}
-
-.chicken span{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 20px;
-    margin-top: 10px;
-    background-color: rgb(255, 200, 97);
-    font-weight: 700;
-    border-radius: 25px;
-    justify-self: center;
-    float: right;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px 40px;
-    
-    
-}
-
-
-.Beef{
-    font-size: 20px;
-    background-color: rgba(187, 187, 187, 0.2);
-    width: 500px;
-    border-radius: 25px;
-    border-color: black;
-    padding-left: 20px;
-    box-shadow: -1px -1px 20px 1px rgb(255, 97, 97) ;
-    
-    
-}
-
-.Beef span{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 20px;
-    margin-top: 10px;
-    background-color: rgb(255, 97, 97);
-    font-weight: 700;
-    border-radius: 25px;
-    justify-self: center;
-    float: right;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px 40px;
-    
-}
-
-
-.sushi{
-    font-size: 20px;
-    background-color: rgba(187, 187, 187, 0.2);
-    width: 500px;
-    border-radius: 25px;
-    border-color: black;
-    padding-left: 20px;
-    box-shadow: -1px -1px 20px 1px rgb(97, 255, 229) ;
-    
-}
-
-.sushi span{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 20px;
-    margin-top: 10px;
-    background-color: rgb(97, 255, 229);
-    font-weight: 700;
-    border-radius: 25px;
-    justify-self: center;
-    float: right;
-    border-style: solid;
-    border-width: 1px;
-    padding: 3px 40px;
-    
-}
-
-@media (max-width: 767px){
-    
-    header{
-        margin-bottom: -150px;
-        
-    }
-    main {
-        flex-direction: column;
-        flex-wrap: wrap;
-        scale: 0.8;
-        padding-top: 0;
-        margin-top: 150px;
-        align-content: center;
-        
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    
-    h1{
-        margin-bottom: 0;
-        
-    }
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        scale: 0.8;
-        
-        justify-content: center;
-        margin-top: 0;
-        padding-top: 0;
-        
-        
-    }
-    main div{
-        padding: 20px;
-        text-align: center;
-        
-    }
-    .Beef , .chicken{
-        grid-column: span 1; 
-        
-    }
-    .sushi{
-        grid-column: span 2;
-        width: 98%;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1200px){
-    main {
-        padding: 0;
-        width: 100%;
-        }
-   
-}
-
-
-
-    </style>
-
-
+        @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&family=Oxygen:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
 </head>
 <body>
 
-    <header>
-        <h1>Our Menu</h1>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">avatar</a>
+            <ul>
+                <li> <a href="#">home</a> </li>
+                <li> <a href="#">Clans</a> </li>
+                <li> <a href="#">Videos</a> </li>
+                <li> <a href="#">Photos</a> </li>
+                <li> <a href="#">about</a> </li>
+            </ul>
+        </header>
 
-    </header>
+            <div class="content">
+                <h2>avatar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus amet ipsum totam architecto non quos voluptate enim harum sed. Tempore similique illo eaque quis explicabo magnam dolores distinctio mollitia.</p>
+                <button>click here</button>
 
-    <main>
-        <div class="chicken">
-            <span>  Chicken  </span>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Quis facere ratione
-                optio architecto dignissimos recusandae 
-                earum officia a incidunt in?</p>
-        </div>
+            </div>
 
-        <div class="Beef">
-            <span>  Beef  </span>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Quis facere ratione
-                optio architecto dignissimos recusandae 
-                earum officia!</p>
-        </div>
-
-        <div class="sushi">
-            <span>  Sushi  </span>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Quis facere ratione
-                optio architecto dignissimos recusandae 
-                earum officia a incidunt in? Lorem, ipsum dolor.</p>
-        </div>
 
 
         
 
 
-    </main>
+
+
+
+
+    </div>
     
 </body>
-
-
 </html>
